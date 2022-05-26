@@ -23,7 +23,7 @@ module.exports = () => ({
                     name: "Play",
                     remotes: {
                         //Play: `Play@${process.env.REMOTE_HOST || 'http://localhost:3001'}/remoteEntry.js`,
-                        Play: `Play@http://172.20.0.4/remoteEntry.js`,
+                        Play: `Play@http://34.64.161.208:9000/remoteEntry.js`,
                     },
                     shared: {
                         ...deps,
