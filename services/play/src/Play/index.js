@@ -1,9 +1,11 @@
 import React from 'react';
+import Img from "./1.png";
 
 const index = () => {
     return (
         <div>
-           hello,world cfa
+            <img src={Img}/>
+           hello,world cfafsf
         </div>
     );
 };

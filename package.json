@@ -9,10 +9,15 @@
     "@craco/craco": "^6.4.3",
     "eslint": "^8.16.0",
     "prettier": "^2.6.2",
+    "turbo": "^1.2.14",
     "typescript": "^4.7.2",
     "webpack": "^5.72.1"
   },
   "dependencies": {
     "@types/testing-library__jest-dom": "^5.14.3"
+  },
+  "scripts":{
+    "build" : "yarn turbo run build --cache-dir=turbo-cache",
+    "start" : "yarn turbo run dev"
   }
 }
