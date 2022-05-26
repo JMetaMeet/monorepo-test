@@ -22,7 +22,7 @@ module.exports = () => ({
                 new ModuleFederationPlugin({
                     name: "Play",
                     remotes: {
-                        Play: `Play@http://localhost:3001/remoteEntry.js`,
+                        Play: `Play@${process.env.REMOTE_HOST || 'http://localhost:3001'}/remoteEntry.js`,
                     },
                     shared: {
                         ...deps,
