@@ -16,8 +16,8 @@
   "dependencies": {
     "@types/testing-library__jest-dom": "^5.14.3"
   },
-  "scripts":{
-    "build" : "yarn turbo run build --cache-dir=turbo-cache",
-    "start" : "yarn turbo run dev"
+  "scripts": {
+    "build": "yarn turbo run build --cache-dir=turbo-cache",
+    "start": "yarn turbo run dev"
   }
 }
