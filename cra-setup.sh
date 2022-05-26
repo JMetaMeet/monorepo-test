@@ -10,7 +10,7 @@ fi
 
 #cra 설치. craco 사용하기위해 억지로 설치. 나중에 craco 가 cra5를 지원한다면 --force 삭제
 echo "CRA 설치 수행"
-#yarn create react-app $1 --template typescript
+#yarn --force create react-app $1 --template typescript --use-pnp
 npx --force create-react-app $1 --template typescript
 
 
@@ -19,6 +19,8 @@ echo "불필요 파일, 폴더 삭제 node_modules, package-lock.json"
 
 rm -rf node_modules package-lock.json 
 cd $1
+yarn set version berry
+yarn 
 
 
 #필수 라이브러리 설치
@@ -27,7 +29,10 @@ yarn add @types/testing-library__jest-dom
 
 
 echo "craco 라이브러리 설치"
-yarn add -D @craco/craco
+yarn add @craco/craco
+
+echo "webpack 라이브러리 설치"
+yarn add -D webpack 
 
 rm -rf node_modules .gitignore
 
