@@ -5,7 +5,7 @@ const index = () => {
     return (
         <div>
             <img src={Img}/>
-           hello,world cfafsf
+           Hello, Cat!
         </div>
     );
 };
