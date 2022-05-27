@@ -25,7 +25,7 @@ module.exports = () => ({
                 }),
                 new ModuleFederationPlugin({
                     name: "Play", //외부에서 사용할 모듈명.
-                    library: { type: "var", name: "Play" }, //윈도우 스크립트에서 사용할 때의 변수명.
+                    //library: { type: "var", name: "Play" }, //윈도우 스크립트에서 사용할 때의 변수명.
                     filename: "remoteEntry.js",
                     exposes: {
                         //키 : 외부에서 사용할 컴포넌트명
