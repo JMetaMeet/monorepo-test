@@ -5399,6 +5399,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.9"],\
             ["@types/react-dom", "npm:18.0.5"],\
             ["@types/testing-library__jest-dom", "npm:5.14.3"],\
+            ["dotenv", "npm:16.0.1"],\
             ["html-webpack-plugin", "virtual:69b19d302a51de1bc4544bb235cdad49b0eaad624c02d0bfd02787a78f2f4e36c50ce71d54b5c67e72288fc59f9bf26f4295dccc9f9d1f255f5253b9e56fee16#npm:5.5.0"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:69b19d302a51de1bc4544bb235cdad49b0eaad624c02d0bfd02787a78f2f4e36c50ce71d54b5c67e72288fc59f9bf26f4295dccc9f9d1f255f5253b9e56fee16#npm:18.1.0"],\
@@ -7687,6 +7688,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/dotenv-npm-10.0.0-36b272df25-f412c5fe8c.zip/node_modules/dotenv/",\
           "packageDependencies": [\
             ["dotenv", "npm:10.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:16.0.1", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-16.0.1-d99e72bb95-f459ffce07.zip/node_modules/dotenv/",\
+          "packageDependencies": [\
+            ["dotenv", "npm:16.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\

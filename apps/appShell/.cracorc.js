@@ -1,6 +1,7 @@
 const { ModuleFederationPlugin } = require("webpack").container;
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
+require("dotenv").config();
 
 const deps = require("./package.json").dependencies;
 
