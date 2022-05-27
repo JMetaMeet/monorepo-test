@@ -16,5 +16,8 @@
         "dev": {
             "cache": false
         }
-    }
+    },
+    "globalDependencies": [
+        "$REACT_APP_REMOTE_HOST"
+    ]
 }
